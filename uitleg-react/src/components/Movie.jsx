@@ -1,9 +1,9 @@
 
-const Movie = () => {
+const Movie = ({ titel, author }) => {
     return (
         <section>
-        <h1>Spiderman</h1>
-        <h2>Marvel</h2>
+        <h1>{titel}</h1>
+        <h2>{author}</h2>
         </section>
      );
 }
