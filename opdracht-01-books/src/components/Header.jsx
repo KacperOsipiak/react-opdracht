@@ -5,7 +5,7 @@ const  = () => {
         <li>Contact</li>
         <li>Over ons</li>
     </section>
-    );
+    ); m
 }
  
-export default 
+export default;
