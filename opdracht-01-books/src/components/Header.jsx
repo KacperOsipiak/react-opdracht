@@ -1,11 +1,13 @@
 const Header = () => {
-    return (  
-    <section>
+  return (
+    <nav>
+      <ul>
         <li>Home</li>
         <li>Contact</li>
         <li>Over ons</li>
-    </section>
-    ); 
-}
- 
+      </ul>
+    </nav>
+  );
+};
+
 export default Header;

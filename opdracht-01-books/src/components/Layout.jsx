@@ -1,7 +1,9 @@
-const Layout = () => {
+const Layout = ({children}) => {
     return ( 
-        width: "80vw";
-        margin: "0 auto";
+        
+    <section className="layout">
+            {children}
+    </section>
  
      );
 }
