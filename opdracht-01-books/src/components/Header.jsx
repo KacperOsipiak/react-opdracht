@@ -1,11 +1,11 @@
-const  = () => {
+const Header = () => {
     return (  
     <section>
         <li>Home</li>
         <li>Contact</li>
         <li>Over ons</li>
     </section>
-    ); m
+    ); 
 }
  
-export default;
+export default Header;
